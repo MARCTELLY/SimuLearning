@@ -97,26 +97,21 @@ gameMartingaleSys <- function() {
 #' @examples
 #' > gameLabouchereSys()
 #' [1] 10  8
-gameLabouchereSys <- function() {
+gameLabouchereSys <- function(){
   listNumber = c(1, 2, 3, 4)
   amoutGain <- 0
   amoutBet = listNumber[1] + listNumber[length(listNumber)]
   nbBet <- 0
 
   while (length(listNumber) >= 1 && amoutBet < 100) {
-    current_winnings <-
-      sample(
-        c(-amoutBet, amoutBet),
-        1,
-        replace = T,
-        prob = c(19 / 37, 18 / 37)
-      )
+    current_winnings <- sample(c(-amoutBet, amoutBet),1,replace = T,
+        prob = c(19 / 37, 18 / 37))
 
-    if (current_winnings > 0) {
+    if (current_winnings > 0){
       amoutGain = amoutGain + current_winnings
       listNumber = listNumber[-c(1, length(listNumber))]
 
-      if (length(listNumber) == 1) {
+      if (length(listNumber) == 1){
         amoutBet <- listNumber[1]
 
       }
@@ -140,3 +135,4 @@ gameLabouchereSys <- function() {
   return (c(amoutGain, nbBet))
 
 }
+
