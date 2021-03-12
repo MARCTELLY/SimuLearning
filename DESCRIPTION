@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "marctelly@hotmail.fr")
     person(given = "Florent",
-           family = "Jakubowski",
+           family = "JAKUBOWSKY",
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
