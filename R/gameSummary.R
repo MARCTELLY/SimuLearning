@@ -1,10 +1,10 @@
 #' gameSummary
 #' return result of 5 replication
-#' @return
-#' @export
+#' @return list
 #'
+#' @export
 #' @examples
-#' > gameSummary()
+#' gameSummary()
 #' [[1]]
 #' [1] -1
 #'

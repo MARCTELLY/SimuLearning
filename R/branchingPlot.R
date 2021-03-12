@@ -2,14 +2,13 @@
 #'
 #' @param gen generations
 #' @param rv.sim simulation of random variables ex. runif(n)
-#' @param ...
+#' @param ... others parameters
 #' @param reps number of repetition
 #' @param logplot if log?
 #'
 #' @return graphic
 #' @export
 #'
-#' @examples
 branchingPlot <- function(gen, rv.sim, ..., reps = 1, logplot = TRUE) {
   # simulates and plots the population of a branching process
   # from generation 0 to gen; rv.sim(n, ...) simulates n rv's

@@ -9,7 +9,7 @@
 #' @export
 #'
 #' @examples
-#' > computeSIR(0.5, 0.02, 10, 3)
+#' computeSIR(0.5, 0.02, 10, 3)
 #' [1]  0 11  0
 #'
 computeSIR <- function(alpha, beta, initSusc, timeOfSpread) {

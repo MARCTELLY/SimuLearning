@@ -72,7 +72,6 @@ expectedMartingaleSys <- function() {
 #' @examples
 #' > expectedMartingaleSys()
 #' [1] -1.86651
-#'
 expectedLabouchereSys <- function() {
   total_win <-0
   i <- 1

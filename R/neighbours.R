@@ -6,7 +6,6 @@
 #' @return number of neighbours
 #' @export
 #'
-#' @examples
 neighbours <- function(A, i, j) {
   # calculate number of neighbours of A[i,j] that are infected
   # we have to check for the edge of the grid

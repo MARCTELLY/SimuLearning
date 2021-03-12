@@ -3,12 +3,10 @@
 #' @param X data
 #' @param apha probability to infect on each step
 #' @param beta probability to be removed
-#' @param pausing
+#' @param pausing parameter
 #'
-#' @return
 #' @export
 #'
-#' @examples
 forestFire <- function(X, apha, beta, pausing = FALSE) {
   # simulate forest fire epidemic model
   # X[i, j] = 2 for susceptible; 1 for infected; 0 for removed

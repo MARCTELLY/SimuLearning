@@ -1,13 +1,12 @@
 #' branching
 #'
 #' @param gen generation
-#' @param rv.sim
+#' @param rv.sim simulation
 #' @param ... other parameters
 #'
 #' @return vector
 #' @export
 #'
-#' @examples
 branching <- function(gen, rv.sim, ...) {
   # population of a branching process from generation 0 to gen
   # rv.sim(n, ...) simulates n rv's from the offspring distribution

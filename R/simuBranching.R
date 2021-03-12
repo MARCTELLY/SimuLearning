@@ -7,7 +7,6 @@
 #' @return a numeric
 #' @export
 #'
-#' @examples
 simuBranching <- function(gen, rv.sim, ...) {
 
   popGen <- 1

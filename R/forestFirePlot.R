@@ -2,10 +2,8 @@
 #'
 #' @param X data
 #'
-#' @return
 #' @export
 #'
-#' @examples
 forestFirePlot <- function(X) {
   # plot infected and removed individuals
   for (i in 1:nrow(X)) {
